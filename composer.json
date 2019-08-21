@@ -24,6 +24,12 @@
         "twig/twig": "~1.23|~2.0",
         "psr/log": "~1.0"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/omnys/form"
+        }
+    ],
     "replace": {
         "symfony/browser-kit": "self.version",
         "symfony/class-loader": "self.version",
@@ -37,7 +43,7 @@
         "symfony/event-dispatcher": "self.version",
         "symfony/filesystem": "self.version",
         "symfony/finder": "self.version",
-        "symfony/form": "self.version",
+        "symfony/form": "dev-omnysfix",
         "symfony/framework-bundle": "self.version",
         "symfony/http-foundation": "self.version",
         "symfony/http-kernel": "self.version",
